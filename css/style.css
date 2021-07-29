@@ -37,15 +37,6 @@ body{
     color: #E76F51;
 }
 
-.list{
-    list-style: none;
-}
-.fixed-height{
-    height: 135px;
-}
-.fixed-height-2{
-    height: 200px;
-}
 .img-height{
     max-height: 360px;
 }
@@ -63,6 +54,16 @@ body{
     font-size: 1rem;
 }
 
+/* Color Classes */
+.local-text-gray{
+    color: #6C6C6C;
+}
+.local-text-blue{
+    color: #23A6F0;
+}
+.local-text-orange{
+    color: #E76F51;
+}
 /* -------------------
     fetured bikes
 ------------------- */
@@ -85,14 +86,9 @@ body{
     100%{transform: scaleX(.5);}
 }
 
-
-/* Color Classes */
-.local-text-gray{
-    color: #6C6C6C;
-}
-.local-text-blue{
-    color: #23A6F0;
-}
-.local-text-orange{
-    color: #E76F51;
+/* ----------- 
+footer style 
+------------- */
+.list{
+    list-style: none;
 }
