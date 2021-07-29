@@ -1,0 +1,39 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* -----------------------------
+    common styles and utilities
+-------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* backgrounds */
+.local-bg-dark{
+    background-color: #264653;
+}
+/* buttons */
+
+.local-btn{
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.local-btn-primary, 
+.local-btn-secondary:hover{
+    background-color: #E76F51;
+    border: none;
+    color: #fff;
+}
+
+.local-btn-secondary, 
+.local-btn-primary:hover{
+    background-color: transparent;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+
+/* -------------------
+    header section
+------------------- */
