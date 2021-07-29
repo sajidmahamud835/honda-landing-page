@@ -11,8 +11,11 @@ body{
 .local-bg-dark{
     background-color: #264653;
 }
-/* buttons */
+.local-bg-black{
+    background-color: black;
+}
 
+/* buttons */
 .local-btn{
     text-transform: capitalize;
     font-size: 18px;
@@ -34,6 +37,62 @@ body{
     color: #E76F51;
 }
 
+.list{
+    list-style: none;
+}
+.fixed-height{
+    height: 135px;
+}
+.fixed-height-2{
+    height: 200px;
+}
+.img-height{
+    max-height: 360px;
+}
+.text-justify{
+    text-align: justify;
+}
+/* font size */
+.font-size-10{
+    font-size: .6rem;
+}
+.font-size-14{
+    font-size: .8rem;
+}
+.font-size-16{
+    font-size: 1rem;
+}
+
 /* -------------------
-    header section
+    fetured bikes
 ------------------- */
+/* gray image */
+.gray-img {
+    filter: grayscale(200%);
+}
+/* UnderLine Classes */
+#underline{
+    width: 80px;
+    height: 1px;
+    background-color: #E76F51;
+    margin: 10px auto;
+    animation: underline-anim 1s linear infinite;
+
+}
+@keyframes underline-anim {
+    0%{transform: scaleX(.5);}
+    50%{transform: scaleX(1.5);}
+    100%{transform: scaleX(.5);}
+}
+
+
+/* Color Classes */
+.local-text-gray{
+    color: #6C6C6C;
+}
+.local-text-blue{
+    color: #23A6F0;
+}
+.local-text-orange{
+    color: #E76F51;
+}
